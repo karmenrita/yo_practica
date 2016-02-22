@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1		{
+		text-align: center;
+		font-family: Tahoma, Geneva, sans-serif;
+		color: #CCC
+		}
+
+table.table2	{
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+				line-height: 1.4em;
+				font-style: normal;
+				border-collapse: collapse;
+				}
+
+.table2 thead th	{
+					padding: 15px;
+					color: #FFF;
+					border: 2px solid #333;
+					border-top: 4px #333333; 
+					background-color: #111;
+					-webkit-border-bottom-left-radius: 1px;
+					-webkit-border-top-right-radius: 1px;
+					-moz-border-radius: 1px 1px 0px 0px;
+					border-top-left-radius: 1px;
+					border-top-right-radius: 1px;
+					border-}
+
+.table2 thead th:empty	{
+	background: transparent;
+	border: none;
+	color: #000;
+						}
+
+.table2 tbody th	{
+					color: #000;
+					background-color: #FFF;
+					border: 0px solid #9ed929;
+					border-right: 0px solid #9ed929;
+					padding: 0px 5px;
+					-moz-border-radius: 2px 0px 0px 2px;
+					-webkit-border-top-left-radius: 2px;
+					-webkit-border-bottom-left-radius: 2px;
+					border-top-left-radius: 2px;
+					border-bottom-left-radius: 2px;
+					}
+
+.table2 tfoot td	{
+					color: #C60;
+					font-size: 32px;
+					text-align: center;
+					padding: 10px 0px;					
+					border-bottom: 4px #333333; 
+					background-color: #000;
+					border: 2px solid #e7efe0;
+					-moz-border-radius: 0px 0px 2px 0px;
+					-webkit-border-radius: 1px;
+					border-radius: 2px;
+					border-bottom-left-radius: 4px;
+					}
+
+.table2 tfoot th	{
+					color: #666;
+					}
+
+.table2 tbody td	{
+					padding: 10px;
+					text-align: center;
+					background-color: #CCC;
+					border: 1px solid #e7efe0;
+					-moz-border-radius: 1px;
+					-webkit-border-radius: 1px;
+					border-radius: 1px;
+					color: #666;
+					}
+.table2 tbody span.check::before	{
+	 								content: url(imagenes/check1.png);
+									}

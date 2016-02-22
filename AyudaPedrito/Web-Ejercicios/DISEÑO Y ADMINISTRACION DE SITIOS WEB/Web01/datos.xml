@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<empleado>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Bruno Diaz</nombres>
+		<cargo>Jefe de Seguridad</cargo>
+		<edad>32</edad>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Ricardo Morales</nombres>
+		<cargo>Asistente de seguridad</cargo>
+		<edad>20</edad>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Bruce Banner</nombres>
+		<cargo>Jefe de Produccion</cargo>
+		<edad>22</edad>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Tony Stark</nombres>
+		<cargo>Gerente de Ventas</cargo>
+		<edad>28</edad>
+	</trabajador>
+</empleado>

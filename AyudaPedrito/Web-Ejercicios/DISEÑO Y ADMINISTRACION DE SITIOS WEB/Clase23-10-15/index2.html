@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+		body{margin:0; background-color:#000;}
+		.circulo{width:40px; height:40px; border-radius:50%; background-color:#ff0000; position:absolute; opacity: 0.6}
+	</style>
+        <script>
+			window.onload = init;
+			function caja(){
+				var velocidad = 2;
+				var intervalo
+				var posY;
+				
+				this.div = document.createElement("div");
+				this.div.className = "circulo";
+				this.div.style.left = Math.random() * window.innerWidth + "px";
+				
+				posY = Math.random() * window.innerHeight,
+				this.div.style.top = posY + "px";
+				
+				var cRojo = parseInt(Math.random()*255);
+				var cVerde = parseInt(Math.random()*255);
+				var cAzul = parseInt(Math.random()*255);
+				this.div.style.backgroundColor = "rgb(" + cRojo + "," + cVerde + "," + cAzul + ")";
+				this.div.onclick = desaparecer;
+				
+				intervalo = setInterval(mover,20);
+				var obj = this;
+				
+				function desaparecer(){
+					this.parentNode.removeChild(this);
+				}
+				function mover(){
+					posY += velocidad;
+					obj.div.style.top = posY + "px";
+				}
+			}
+			function superCaja(){
+				superCaja.prototype = new caja;
+				this.div.style.width = "100px";
+				this.div.style.height = "100px";
+			}
+			function init(){
+				setInterval(crearSprite,400);
+				setInterval(crearSuperSprite,2000);
+			}
+			function crearSprite(){
+				var sprite = new caja();
+				document.body.appendChild(sprite.div);
+			}
+			function crearSuperSprite(){
+				var sprite = new superCaja();
+				document.body.appendChild(sprite.div);
+			}
+		</script>
+
+</head>
+
+<body>
+</body>
+</html>

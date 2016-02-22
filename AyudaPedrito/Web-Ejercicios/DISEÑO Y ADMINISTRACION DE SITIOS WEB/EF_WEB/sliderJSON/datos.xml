@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<empleado>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Bruno Diaz</nombres>
+		<precio>10.00</cargo>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Ricardo Morales</nombres>
+		<precio>20.00</cargo>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Bruce Banner</nombres>
+		<precio>20.50</cargo>
+	</trabajador>
+	<trabajador>
+		<dibujo ruta="descarga.jpg"/>
+		<nombres>Tony Stark</nombres>
+		<precio>30.00</cargo>
+	</trabajador>
+</empleado>

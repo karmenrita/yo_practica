@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+
+	<title>My Brand</title>
+	
+	<meta name="theme-color" content="#1a1a1a">
+	
+	<link rel="stylesheet" type="text/css" href="My%20Brand_files/main.css">
+	
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>JSONslider</h1>
+			<h3>A simple jQuery slider for pictures stored dynamically in a JSON file you can edit without messing up your HTML.</h3>
+		</header>
+		
+		<div class="main">
+			<div style="position: relative; height: 450px;" class="slider"><div style="position: relative; width: 100%; height: 100%; margin: 0px auto; padding: 0px; background-color: inherit; overflow: hidden;"><figure class="slider-active" style="position: absolute; display: block; opacity: 0.711467;"><img src="My%20Brand_files/forthbridge.jpeg" alt="Forth Bridge"></figure><figure class="" style="position: absolute; display: block; opacity: 0.288533;"><img src="My%20Brand_files/hunting-canmore-alberta-canada.jpeg" alt="Bridge Hunting Canmore Alberta Canada"></figure><figure class="" style="position: absolute; display: none;"><img src="My%20Brand_files/sacramento-river.jpeg" alt="Bridge on the Sacramento River"></figure><figure class="" style="position: absolute; display: none;"><img src="My%20Brand_files/rfk.jpeg" alt="RFK at sunrise"></figure></div></div>
+			
+			<section>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+ illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+explicabo.</p>
+
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+voluptatem sequi nesciunt.</p>
+
+				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+				<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+
+				<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat 
+quo voluptas nulla pariatur?</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
+et quas molestias excepturi sint occaecati cupiditate non provident, 
+similique sunt in culpa qui officia deserunt mollitia animi, id est 
+laborum et dolorum fuga.</p>
+
+				<p>Et harum quidem rerum facilis est et expedita distinctio. Nam 
+libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+ quo minus id quod maxime placeat facere</p>
+			</section>
+		</div>
+	</div>
+
+	<!--scripts-->
+	<script src="My%20Brand_files/jquery_002.js"></script>
+	<script src="My%20Brand_files/jquery.js"></script>
+	
+	<script>
+		$( document ).ready(function() {
+			
+			$( '.slider' ).jsonSlider({
+				json: 'store.json',
+			});
+		});
+	</script>
+
+</body></html>

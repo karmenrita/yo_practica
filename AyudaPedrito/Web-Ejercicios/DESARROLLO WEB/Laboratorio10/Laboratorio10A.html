@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Validar formularios con HTML5 y CSS3</title>
+<link href="estilosA.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form id="pago">
+<fieldset>
+<legend>Datos personales</legend>
+<ol>
+<li>
+<label for="nombre">Nombre</label>
+<input id="nombre" name="nombre" type=text placeholder="Escribe tu nombre completo" required autofocus>
+</li>
+<li>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" placeholder="ejemplo@dominio.com" required>
+</li>
+<li>
+<label for="telefono">Teléfono</label>
+<input id="telefono" name="telefono" type="tel" placeholder="Ej. +4466212112154" required>
+</li>
+<li>
+<label for="pais">País</label>
+<input id="pais" name="pais" type="text" required>
+</li>
+</ol>
+</fieldset> <br/>
+<fieldset>
+<legend>Datos de tarjeta de crédito</legend>
+<ol>
+<li>
+<label for="numtarjeta">Número</label>
+<input id="numtarjeta" name="numtarjeta" type="number" placeholder="Ej. 555-444-333-222" required>
+</li>
+<li>
+<label for="nomtarjeta">Nombre</label>
+<input id="nomtarjeta" name="nomtarjeta" type="text" placeholder="Nombre exacto del propietario" required>
+</li>
+</ol> <br/>
+</fieldset>
+-------------------------------------------------
+<fieldset>
+<button type="submit">Realizar compra</button>
+</fieldset>
+</form>
+
+</body>
+</html>

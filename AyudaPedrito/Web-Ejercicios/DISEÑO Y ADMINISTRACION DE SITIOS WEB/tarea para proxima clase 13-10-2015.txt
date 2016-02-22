@@ -1,0 +1,14 @@
+
+modificar 
+
+Hacer una aplicacion en PhoneGap
+
+descargarlo en un celular andriod
+
+y cambiar el icono en archivo config.xml ----- averiguar
+
+**********************
+
+https://themeroller.jquerymobile.com/
+
+https://build.phonegap.com/apps para convertirlo en una aplicacion para celular

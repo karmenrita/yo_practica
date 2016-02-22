@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contendor		{
+				width: 1003px;
+				margin: 0 auto;
+				}
+
+#imagenEncabezado	{
+					background-image:url(imagenes/encabezado_banner1.jpg);
+					background-repeat: no-repeat;
+					height: 121px;
+					}
+
+body		{
+			font-size: 14px;
+			font-family: Arial, Helvetica, sans-serif;
+			}
+
+#menuprincipal		{
+					background: #666;
+					width: 1003px;
+					height: 30px;
+					}
+
+.relleno		{ background: #000;
+				height: 30px;
+				text-align: center;
+				} ¡important
+
+nav			{
+			height: 30px;
+			width: 1003px;
+			background: #666;
+			}
+
+
+nav li	{
+			list-style: none;
+			position: relative;
+			float: left;
+			display: inline-block;
+			padding-right: 30px;
+			}
+
+nav li a	{
+			color: #ccc;
+			text-decoration: none;
+			padding: 5px;
+			display: block;
+			font-size: 12px;
+			text-align: left;
+			}
+
+nav li a:hover	{
+				background: #FC9;
+				color: #08d;
+				}
+
+nav li .parent:hover	{
+						border: 0.5px #ccc solid;
+						margin: -1px;
+						background: #ccc;
+						}
+nav li li a	{
+			width: 180px;
+			display: block;
+			text-align: left;
+			height: 20px;
+			}
+
+nav li ul	{
+			width: 180px;
+			margin: 0px;
+			padding: 5px;
+			display: none;
+			background: #666;
+			border: 1px #999 solid;
+			position: absolute;
+			}
+
+nav li:hover ul	{
+				display: inline;
+				}
+
+article		{
+			float: left;
+			width: 800px;
+			}
+				
+aside		{
+			background:#FFF;
+			margin: auto;
+			}
+
+h2		{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-style: normal;
+		font-size:18px;
+		text-align: center;
+		color: #09C;
+		}
+
+aside h2:hover	{
+				color: #930;
+				}
+
+#cuadro	{
+		width: 200px;
+		height: 80px;
+		float:left;
+		}
+
+footer		{clear: both}

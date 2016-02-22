@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+	$(document).ready(function(e){
+        $.getJSON("datos.json",function(datos){
+				$.each(datos,function(index,trabajador){
+					
+					var nom = trabajador.nombres
+					var car = trabajador.cargo
+					
+					$("body").append("<h1>" + nom + "</h1><p>" + car + "</p>");
+				});
+		});
+    });
+</script>
+</head>
+
+<body>
+</body>
+</html>

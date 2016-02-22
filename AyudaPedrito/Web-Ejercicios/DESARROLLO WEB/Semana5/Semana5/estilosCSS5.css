@@ -1,0 +1,41 @@
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; font-family:Tahoma, Geneva, sans-serif; font-size:22px }
+.clear { clear: both; }
+img { border: none; margin-right: 4px; border: 6px #CCCCCC}
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color:#FFF;
+}
+
+header, nav, aside, #contenido, 
+#contenido article, #contenido aside, 
+footer {   border: 1px width: 90%; height:10%}
+
+	body { background-image:url(imagenes/bodyBg.gif)}
+
+
+header {
+	background-color: #FFF;
+	
+}
+header #logo { 
+float: left;
+background-color:#FFF; }
+
+table		{ border: 8px #333333}
+a		{align:"right"; width:200px; height:60px; background-color:#09F}
+#cuadro		{ width:148px; 
+			height:20px; 
+			margin:auto; 
+			float:left; background-color: #630;
+			border: 1px solid #CCC}
+
+table img		{ border: #CCC 5px solid;}
+p		{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+hr		{ border:0.2px solid #006600}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+	$(document).ready(function(e) {
+        $.ajax({
+			url:"datos.xml",
+			type:"GET",
+			dataType:"xml"
+		}).done(function(datos){
+			$(datos).find("trabajador").each(function(index, element) {
+                var nom = $(this).find("nombres").text();
+				var car = $(this).find("cargo").text();
+                $("body").append("<h1>" + nom + "</h1><p>" + car + "</p>");
+            });
+		});
+    });
+</script>
+</head>
+
+<body>
+</body>
+</html>

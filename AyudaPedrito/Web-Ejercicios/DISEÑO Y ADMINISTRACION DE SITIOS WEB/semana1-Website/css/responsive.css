@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 960px){
+	#aviso{
+		width: 300px;
+		height: 300px;
+		top: 30px;
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#aviso{
+		width: 200px;
+		height: 200px;
+		top: 20px;
+		right: 20px;
+	}
+	#aviso p{
+		display: none;
+	}
+	h1{
+		font-size: 36px;
+	}
+	.column{
+	width: 100%;
+	float: left;
+	}
+}
+

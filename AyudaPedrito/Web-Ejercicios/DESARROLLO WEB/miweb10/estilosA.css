@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body		{ font-family:Verdana, Geneva, sans-serif}
+
+legend		{ font-size: 20px}
+
+form#pago	{
+			margin:auto;
+			background: #693;
+			color: white;
+			font-size: 16px;
+			padding: 30px;
+			width: 400px;
+			border: solid 10px lightSteelBlue;
+			border-radius: 5px;}
+
+form#pago fieldset	{
+					border: none;
+					}
+
+form#pago input	{
+				font-size: 12px;
+				background: white;
+				border: solid 1px LightSteelBlue;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				float: right;
+				margin-right: 15px;
+				width: 200px;
+				}
+
+form#pago ol li	{
+				line-height: 25px;
+				list-style: none;
+				}
+
+form#pago [required]	{
+						border: solid 1px #7acc28;
+						}
+
+input:required	{
+				outline: solid 1px #7acc28;
+				}
+

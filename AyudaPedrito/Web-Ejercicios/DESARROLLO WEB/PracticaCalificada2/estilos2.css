@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2	{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	font-style: normal;
+	text-align: center;
+	}
+
+
+form#usuario	{
+				margin:auto;
+				background: #DDD;
+				color: black;
+				font-size: 16px;
+				width: 420px;
+				height: 300px;
+				border: solid 10px #FFCCFF;
+				border-radius: 0px;}
+
+form#usuario fieldset	{
+					border: none;
+					}
+
+form#usuario input	{
+				font-size: 12px;
+				background: white;
+				border: solid 1px LightSteelBlue;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				float: right;
+				margin-right: 15px;
+				width: 200px;
+				}
+
+form#usuario textarea {
+					float: right;
+				margin-right: 15px;
+				width: 200px;}
+
+form#usuario ol li	{
+				line-height: 25px;
+				list-style: none;
+				}
+
+form#usuario [required]	{
+						border: solid 1px #7acc28;
+						}
+
+input:required	{
+				outline: solid 1px #7acc28;
+				}
+				
+textarea:required	{
+				outline: solid 1px #7acc28;
+				}
+form#usuario button {
+					margin-left: 180px}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1		{
+		text-align: center;
+		font-family: Tahoma, Geneva, sans-serif;
+		color: #CCC
+		}
+
+table.table3	{
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+				line-height: 1.4em;
+				font-style: normal;
+				border-collapse: collapse;
+				}
+
+.table3 thead td	{
+					padding: 15px;
+					color: #FFF;
+					border: 2px solid #333;
+					border-bottom: 4px #333333; 
+					background-color: #111;
+					-webkit-border-bottom-left-radius: 1px;
+					-webkit-border-top-right-radius: 1px;
+					-moz-border-radius: 1px 1px 0px 0px;
+					border-top-left-radius: 1px;
+					border-top-right-radius: 1px;
+					text-align: center}
+
+.table thead tr th	{
+				color: #CCC;
+				background-color: #FFF;
+				border: 2px solid #000;
+				border-bottom: 4px #000000;				
+				-webkit-border-bottom-left-radius: 2px;
+				-moz-border-radius: 0px 0px 2px 0px;
+				border-bottom-left-radius: 2px;
+				border-bottom-right-radius: 2px;
+				}
+
+.table3 thead td:empty	{
+	background: transparent;
+	border: none;
+	color: #000;
+						}
+
+.table3 tbody th	{
+					color: #666;
+					background-color: #FFF;
+					border: 0px solid #9ed929;
+					border-right: 0px solid #9ed929;
+					padding: 0px 5px;
+					-moz-border-radius: 2px 0px 0px 2px;
+					-webkit-border-top-left-radius: 2px;
+					-webkit-border-bottom-left-radius: 2px;
+					border-top-left-radius: 2px;
+					border-bottom-left-radius: 2px;
+					}
+
+.table3 tfoot td	{
+					color: #000;
+					font-size: 32px;
+					text-align: center;
+					padding: 10px 0px;					
+					border-bottom: 4px #333333; 
+					background-color: #069;
+					border: 2px solid #e7efe0;
+					-moz-border-radius: 0px 0px 2px 0px;
+					-webkit-border-radius: 1px;
+					border-radius: 2px;
+					border-bottom-left-radius: 4px;
+					}
+
+.table3 tfoot th	{
+					color: #000;
+					}
+
+.table3 tbody td	{
+					padding: 10px;
+					text-align: center;
+					background-color: #999;
+					border: 1px solid #e7efe0;
+					-moz-border-radius: 1px;
+					-webkit-border-radius: 1px;
+					border-radius: 1px;
+					color: #CCC;
+					}
+.table3 tbody span.check::before	{
+	 								content: url(imagenes/accept.png);
+									}

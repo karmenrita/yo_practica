@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(fonticons/css/font-awesome.min.css);
+
+#main-nav{
+	background-color: #FFF;
+	color:#FFF;
+	}
+ul.menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+ul.menu li{
+	float:left;
+	}
+ul.menu li a{
+	background-color: #FFF;
+	color: #006;
+	text-decoration:none;
+	padding:8px;
+	display:block;
+	font-size:14px;
+	}
+
+#cont{
+	float: right}
+
+hr{
+	color:#666;
+	margin:0;
+	border:1px solid #006;
+}
+.cuadro{
+	background-color:#C60;
+	color:#FFF
+}
+.cuadro2{
+	background-color:#005a8c;
+}
+
+h3, p .container{
+	color:#FFF !important;
+}
+h4, .container{
+	color:#003;
+}
+
+footer{
+	background-color:#005a8c;
+}
+
+footer p{
+	font-size:11px;
+	color:#FFF
+}

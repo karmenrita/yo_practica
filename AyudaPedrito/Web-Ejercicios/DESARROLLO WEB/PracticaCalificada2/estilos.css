@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1		{
+		text-align: center;
+		font-family: Tahoma, Geneva, sans-serif;
+		color: #660
+		}
+
+table.table1	{
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+				line-height: 1.4em;
+				font-style: normal;
+				border-collapse: separate;
+				}
+img		{ 
+		width: 120px;
+		height: 100px;
+		border: solid 4px #999999;
+		}
+.table1 thead th	{
+					padding: 15px;
+					color: #fff;
+					border: 1px solid #C60;
+					border-bottom: 3px #C60;
+					background-color: #39C;
+					-webkit-border-bottom-left-radius: 5px;
+					-webkit-border-top-right-radius: 5px;
+					-moz-border-radius: 5px 5px 0px 0px;
+					border-top-left-radius: 5px;
+					border-top-right-radius: 5px;}
+
+.table1 thead th:empty	{
+						background: transparent;
+						border: none;
+						}
+
+.table1 tbody th	{
+					color: #fff;
+					background-color: #39C;
+					border: 1px solid #C60;
+					border-right: 3px solid #C60;
+					padding: 0px 10px;
+					-moz-border-radius: 5px 0px 0px 5px;
+					-webkit-border-top-left-radius: 5px;
+					-webkit-border-bottom-left-radius: 5px;
+					border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;
+					}
+.table1 tbody td	{
+					padding: 10px;
+					text-align: center;
+					background-color: #def3ca;
+					border: 2px solid #e7efe0;
+					-moz-border-radius: 2px;
+					-webkit-border-radius: 2px;
+					border-radius: 2px;
+					color: #666;
+					}

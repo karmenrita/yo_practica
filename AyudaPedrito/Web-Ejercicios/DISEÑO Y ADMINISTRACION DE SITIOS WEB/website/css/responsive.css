@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.imgResponsive{
+	width:100%;
+	height:auto;
+	}
+
+
+@media screen and (max-width: 768px) {
+	#container{
+		width:768px;
+		}
+	ul.menu li a{
+		font-size:12px;
+		}	
+	ul.menu li:nth-child(2) a{
+		background-color:#CC0;
+		}
+	#home-content{
+		width:468px;
+		}
+	.column {
+  		width: auto; 
+  		float: none;
+	}
+
+	}
+@media screen and (max-width: 420px) {
+	#container{
+		width:420px;
+		}
+	ul.menu li{
+		float:none;
+		}	
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	

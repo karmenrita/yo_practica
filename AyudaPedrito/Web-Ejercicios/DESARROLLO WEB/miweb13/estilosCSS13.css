@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*h1	{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #999;
+	}*/
+p {
+	font: 14px Arial;
+	color: #988;
+	}
+
+video	{
+			width: 200px;
+			height: 112px;
+			border: 1px solid #669900;
+			}
+
+/*video	{
+		margin-left: -60px;
+		border: 10px solid #ccc;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-o-border-radius: 20px;
+		}*/
+
+.video-container	{
+					display: inline-block;
+					text-align: center;
+					}

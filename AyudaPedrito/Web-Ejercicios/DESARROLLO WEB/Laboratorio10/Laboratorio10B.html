@@ -1,0 +1,96 @@
+<!DOCTYPE HTML><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Validar formularios con HTML5 y CSS3</title>
+<link href="estilosB.css" rel="stylesheet" type="text/css">
+</head>
+
+<form id="orderForm" action="" method="get">
+
+  <h1>Formulario de pedido</h1>
+
+  <fieldset>
+    <legend>Detalles dela licencia</legend>
+
+    <ul>
+
+      <li>
+        <label for="emailAddress">Direccion de correo</label>
+        <input type="email" name="emailAddress" id="emailAddress" placeholder="nombre@empresa.com" required autofocus maxlength="50" />
+      </li>
+
+      <li>
+        <label for="website">Sitio web</label>
+        <input type="url" name="website" id="website" placeholder="http://www.empresa.com/" required maxlength="100" />
+      </li>
+
+      <li>
+        <label for="numLicenses">Número de licencias</label>
+        <input type="number" name="numLicenses" id="numLicenses" placeholder="Cuantos va comprar (1-10)" required min="1" max="10" maxlength="2" />
+      </li>
+      
+    </ul>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Datos de facturacion</legend>
+
+    <ul>
+
+      <li>
+        <label for="billingName">Nombre</label>
+        <input type="text" name="billingName" id="billingName" placeholder="Nombres y apellidos" required maxlength="50" />
+      </li>
+
+      <li>
+        <label for="billingAddress">Direccion</label>
+        <textarea name="billingAddress" id="billingAddress" placeholder="Numero de calle, avenida, jiron, dpto." required maxlength="150"></textarea>
+      </li>
+
+      <li>
+        <label for="billingPostcode">Codigo postal</label>
+        <input type="text" name="billingPostcode" id="billingPostcode" placeholder="Codigo postal" required maxlength="20" />
+      </li>
+
+      <li>
+        <label for="billingCountry">Pais</label>
+        <select name="billingCountry" id="billingCountry"><option>Perú</option><option>Colombia</option><option>Chile</option><option>Argentina</option><option>Brasil</option></select>
+      </li>
+
+      <li>
+        <label for="phone">Teléfono <em>(opcional)</em></label>
+        <input type="tel" name="phone" id="phone" placeholder="Incluir prefijo de la ciudad, e.g. +44" maxlength="20" />
+      </li>
+
+    </ul>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Detalles del pago</legend>
+
+    <ul>
+
+      <li>
+        <label for="cardNumber">Numero de tarjeta</label>
+        <input type="text" name="cardNumber" id="cardNumber" placeholder="Como se muestra en la parte delantera de su tarjeta" required maxlength="30" pattern="[\d\ ]{12,}" />
+      </li>
+
+      <li>
+        <label for="cvvCode">Codigo CVV </label>
+        <input type="number" name="cvvCode" id="cvvCode" placeholder="Número de 3 dígitos en el reverso de la tarjeta" required maxlength="3" pattern="\d{3}" />
+      </li>
+
+      <li>
+        <label for="expiryDate">Fecha de expiracion</label>
+        <input type="month" name="expiryDate" id="expiryDate" placeholder="YYYY-MM" required maxlength="7" />
+      </li>
+
+    </ul>
+
+  </fieldset>
+
+  <input type="submit" name="placeOrder" value="Haga su pedido" />
+   
+</form>
+</html>

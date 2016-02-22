@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1169px){
+	#main-menu li a {
+		font-size:0.9em;
+		padding: 33px 5px;
+    	width: 65px;
+		}
+	#concierto h2{
+		font-size:3em!important;
+		}	
+	}
+@media (max-width:930px){
+	#main-menu li a {
+		border:none;
+		}
+	#main-nav {
+		float:left;
+		clear:both;
+		}
+	.col-expo{
+		width:100%;
+		}
+	.contenedor-foto{
+		width:33.333333%;
+		}
+	#concierto h2{
+		font-size:2em!important;
+		}				
+	}
+@media (max-width:767px){
+	.menu{
+		 display:block;
+		}
+	.menu li{
+		float:none;
+		}
+	#aviso{
+		display:none;
+		}
+	#top-nav{
+		position:relative;
+		}
+	body{
+		margin-top:0;
+		}
+	#main-menu li a{
+		border-radius:0;
+		padding:2px;
+		width:auto;
+		}
+	#main-menu li{
+		float:left;
+		}
+	#main-header{
+		padding:15px;
+		}
+	h1{
+		font-size:40px;
+		}
+	#logo h1 a {
+		background-size:40px 40px;
+		padding-left:48px;
+		}
+	#logo{
+		margin-bottom:10px;
+		margin-top:10px;
+		}	
+	#empresa-left,
+	#empresa-right,
+	.col-valores,
+	#expo-actual,
+	#expo-anteriores{
+		width:100%;
+	}
+	#concierto h2{
+		font-size:1em!important;
+		}
+	#concierto h4{
+		font-size:1em!important;
+		}
+	.tProductos{
+		width:100%;
+		font-size:0.9em;
+		}
+	.tProductos tr,
+	.tProductos td{
+		padding:4px;
+		}
+	.contenedor-foto{
+		width:50%;
+		}
+	.form-tipo1 input, 
+	.form-tipo1 textarea {
+    width: 100%;					
+	box-sizing:border-box;
+	}
+	#right-footer{
+		 float:left;
+		 clear:both;
+	}
+	.form-tipo1 {
+		display:block;
+		}
+}
+

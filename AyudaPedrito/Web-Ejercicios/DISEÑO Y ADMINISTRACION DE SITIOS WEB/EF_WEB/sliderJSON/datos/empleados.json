@@ -1,0 +1,32 @@
+[
+	{
+		"nombre":"Bruno Díaz",
+		"edad":"20",
+		"pais":"Peru",
+		"foto":""
+	},
+	{
+		"nombre":"Carla Parker",
+		"edad":"22",
+		"pais":"EEUU",
+		"foto":""
+	},
+	{
+		"nombre":"Paola Cubillas",
+		"edad":"24",
+		"pais":"Peru",
+		"foto":""
+	},
+	{
+		"nombre":"Luz Vargas",
+		"edad":"24",
+		"pais":"China",
+		"foto":""
+	},
+	{
+		"nombre":"Rodolfo Perez",
+		"edad":"30",
+		"pais":"Brasil",
+		"foto":""
+	}
+]

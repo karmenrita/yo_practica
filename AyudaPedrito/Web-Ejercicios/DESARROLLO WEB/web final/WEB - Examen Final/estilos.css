@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0 auto}
+
+#contenedor { width:984px;
+			  height:710px;
+			  background: #DDD}  
+nav{
+		float:right;
+		background-color:#DDD;
+		width:960px;
+		height: 40px;	
+		display:block;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		font-size:14px;
+		margin-top:8px;
+		margin-right:12px;}
+	
+	
+nav ul li{
+	float:left;
+	list-style: none;
+	width:110px;
+	padding-left:10px;}
+	
+nav ul li a{
+	padding-top:10px;
+		height:30px;
+		display:block;
+		text-decoration:none;
+		text-align:center;
+		color: #000;
+		text-style:none;}
+	
+.ola1 a:hover{
+		background-color:#6F0;
+		text-decoration:none;
+		color:#000000;}	
+		
+.ola2 a:hover{
+		background-color:#F60;
+		text-decoration:none;
+		color:#000000;}	
+
+.ola3 a:hover{
+		background-color:#09F;
+		text-decoration:none;
+		color:#000000;}	
+		
+.ola4 a:hover{
+		background-color:#FC0;
+		text-decoration:none;
+		color:#000000;}	
+
+.ola5 a:hover{
+		background-color:#CC3;
+		text-decoration:none;
+		color:#000000;}	
+		
+.ola6 a:hover{
+		background-color:#555;
+		text-decoration:none;
+		color:#000000;}	
+		
+.ola7 a:hover{
+		background-color:#C36;
+		text-decoration:none;
+		color:#000000;}	
+		
+#cuerpo { margin:0 auto;
+		  height:480px;
+		  width:984;
+		  background:#444}
+		  
+#caja { padding-top:80px;}
+	
+.noticias { height: 380px;
+			width:300px;
+			background:#888;
+			margin-right:670px}
+p { padding:2px;
+	text-align:justify;}
+.img1 { padding-top:15px;
+		margin-left:100px}
+			
+.animacion { height: 380px;
+			width:300px;
+			background:#888;
+			margin-right:670px;
+			float:left;
+			margin-top: -380px;
+			margin-left:330px}
+			
+.img2 { -webkit-filter: sepia (100%);}
+			
+.formulario { height: 380px;
+			width:323px;
+			background:#888;
+			float:left;
+			margin-top: -380px;
+			margin-left:647px}
+			
+form#pago {width:300px;
+		   margin-right:20px;
+		   -webkit-border-radius:5px;}
+		   
+form#pago ol li {
+	              line-height:25px;/*Separacion*/
+				  list-style:none; }

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style>
+		body{margin:0; background-color:#000;}
+		.circulo{width:40px; height:40px; border-radius:50%; background-color:#ff0000; position:absolute; opacity: 0.6}
+	</style>
+        <script>
+			window.onload = init;
+			function caja(){
+				this.div = document.createElement("div");
+				this.div.className = "circulo";
+				this.div.style.left = Math.random() * window.innerWidth + "px";
+				this.div.style.top = Math.random() * window.innerHeight + "px";
+				var cRojo = parseInt(Math.random()*255);
+				var cVerde = parseInt(Math.random()*255);
+				var cAzul = parseInt(Math.random()*255);
+				this.div.style.backgroundColor = "rgb(" + cRojo + "," + cVerde + "," + cAzul + ")";
+			}
+			function cajaMed(){
+				cajaMed.prototype = new caja;
+				this.div.style.width = "20px";
+				this.div.style.height = "20px";
+			}
+			function cajaMin(){
+				cajaMin.prototype = new caja;
+				this.div.style.width = "10px";
+				this.div.style.height = "10px";
+			}
+			function init(){
+				for(var i=1;i=100;i++){
+					var sprite = new caja();
+					document.body.appendChild(sprite.div);
+				}
+				for(var j=1;j=100;j++){
+					var sprite = new cajaMed();
+					document.body.appendChild(sprite.div);
+				}
+				for(var k=1;k=100;k++){
+					var sprite = new cajaMin();
+					document.body.appendChild(sprite.div);
+				}
+			}
+		</script>
+
+</head>
+
+<body>
+</body>
+</html>
